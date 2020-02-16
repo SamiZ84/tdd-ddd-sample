@@ -4,6 +4,6 @@ namespace Wallet.Application
 {
     public interface IRegisterCustomerUseCase
     {
-        CustomerResult Register(string expectName, string expectedPhoneNumber);
+        CustomerResult Register(string name, string phoneNumber, DateTime birthDate);
     }
 }
